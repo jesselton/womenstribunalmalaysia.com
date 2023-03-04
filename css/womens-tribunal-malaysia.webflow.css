@@ -1376,7 +1376,7 @@ blockquote {
   margin-left: auto;
 }
 
-.register-form {
+.registration-form {
   position: fixed;
   left: 0%;
   top: 0%;
@@ -1465,6 +1465,46 @@ blockquote {
 .image-12 {
   max-height: 32px;
   max-width: 32px;
+}
+
+.final-report {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 9999;
+  display: none;
+  overflow: auto;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #8998c3;
+  color: #fff;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.final-report-text {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.8em;
+  font-weight: 300;
+  text-align: left;
+  text-transform: none;
+}
+
+.container-2 {
+  max-width: 400px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1949,7 +1989,7 @@ blockquote {
     padding-bottom: 40px;
   }
 
-  .register-form {
+  .registration-form {
     padding-top: 0px;
   }
 
@@ -1964,6 +2004,11 @@ blockquote {
     -ms-flex: 0 auto;
     flex: 0 auto;
     text-decoration: none;
+  }
+
+  .final-report {
+    display: none;
+    padding-top: 0px;
   }
 }
 
@@ -2303,7 +2348,7 @@ blockquote {
     height: 48px;
   }
 
-  .register-form {
+  .registration-form {
     display: none;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -2315,6 +2360,12 @@ blockquote {
 
   .nav-register-button {
     white-space: nowrap;
+  }
+
+  .final-report {
+    display: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
@@ -2689,12 +2740,16 @@ blockquote {
     height: 32px;
   }
 
-  .register-form {
+  .registration-form {
     padding-bottom: 0px;
   }
 
   .nav-register-button {
     display: none;
+  }
+
+  .final-report {
+    padding-bottom: 0px;
   }
 }
 
