@@ -1503,10 +1503,6 @@ blockquote {
   text-transform: none;
 }
 
-.container-2 {
-  max-width: 400px;
-}
-
 @media screen and (max-width: 991px) {
   h2 {
     font-family: Caveat, sans-serif;
@@ -2009,6 +2005,10 @@ blockquote {
   .final-report {
     display: none;
     padding-top: 0px;
+  }
+
+  .final-report-text {
+    display: block;
   }
 }
 
