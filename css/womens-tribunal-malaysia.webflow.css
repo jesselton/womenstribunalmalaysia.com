@@ -700,7 +700,7 @@ blockquote {
   margin-bottom: 20px;
 }
 
-.register-button {
+.final-reportbutton {
   padding: 4px 16px;
   border-radius: 100px;
   background-color: #e0adc6;
@@ -710,7 +710,7 @@ blockquote {
   text-decoration: none;
 }
 
-.register-button.large-button {
+.final-reportbutton.large-button {
   display: inline-block;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -720,12 +720,12 @@ blockquote {
   text-align: left;
 }
 
-.register-button.large-button.blue-button {
+.final-reportbutton.large-button.blue-button {
   background-color: #1d3461;
   color: #e1a3c7;
 }
 
-.register-button.blue-button {
+.final-reportbutton.blue-button {
   display: none;
   background-color: #8998c3;
 }
@@ -764,6 +764,7 @@ blockquote {
 }
 
 .div-block-19 {
+  display: none;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -1376,7 +1377,7 @@ blockquote {
   margin-left: auto;
 }
 
-.registration-form {
+.registration-modal {
   position: fixed;
   left: 0%;
   top: 0%;
@@ -1467,7 +1468,7 @@ blockquote {
   max-width: 32px;
 }
 
-.final-report {
+.final-report-coming-soon-modal {
   position: fixed;
   left: 0%;
   top: 0%;
@@ -1501,6 +1502,10 @@ blockquote {
   font-weight: 300;
   text-align: left;
   text-transform: none;
+}
+
+.paragraph-3 {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1754,7 +1759,7 @@ blockquote {
     font-size: 64px;
   }
 
-  .register-button {
+  .final-reportbutton {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
@@ -1762,11 +1767,11 @@ blockquote {
     text-decoration: none;
   }
 
-  .register-button.large-button.blue-button {
+  .final-reportbutton.large-button.blue-button {
     display: inline-block;
   }
 
-  .register-button.blue-button {
+  .final-reportbutton.blue-button {
     display: inline-block;
   }
 
@@ -1985,7 +1990,7 @@ blockquote {
     padding-bottom: 40px;
   }
 
-  .registration-form {
+  .registration-modal {
     padding-top: 0px;
   }
 
@@ -2002,13 +2007,17 @@ blockquote {
     text-decoration: none;
   }
 
-  .final-report {
+  .final-report-coming-soon-modal {
     display: none;
     padding-top: 0px;
   }
 
   .final-report-text {
     display: block;
+  }
+
+  .paragraph-3 {
+    display: none;
   }
 }
 
@@ -2143,7 +2152,7 @@ blockquote {
     font-size: 48px;
   }
 
-  .register-button {
+  .final-reportbutton {
     white-space: nowrap;
   }
 
@@ -2348,7 +2357,7 @@ blockquote {
     height: 48px;
   }
 
-  .registration-form {
+  .registration-modal {
     display: none;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -2362,7 +2371,7 @@ blockquote {
     white-space: nowrap;
   }
 
-  .final-report {
+  .final-report-coming-soon-modal {
     display: none;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -2542,7 +2551,7 @@ blockquote {
     font-size: 48px;
   }
 
-  .register-button {
+  .final-reportbutton {
     display: none;
   }
 
@@ -2740,7 +2749,7 @@ blockquote {
     height: 32px;
   }
 
-  .registration-form {
+  .registration-modal {
     padding-bottom: 0px;
   }
 
@@ -2748,7 +2757,7 @@ blockquote {
     display: none;
   }
 
-  .final-report {
+  .final-report-coming-soon-modal {
     padding-bottom: 0px;
   }
 }
@@ -2758,15 +2767,6 @@ blockquote {
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
   align-self: end;
-}
-
-#w-node-d902f283-134e-63d9-3598-5b927a93fe51-99e358da {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: center;
-  justify-self: center;
 }
 
 #w-node-_725515e3-0fef-0064-5a5c-32d04557d362-99e358da {
@@ -2959,15 +2959,6 @@ blockquote {
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
   align-self: end;
-}
-
-#w-node-d902f283-134e-63d9-3598-5b927a93fe51-952c35eb {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -ms-grid-column-align: center;
-  justify-self: center;
 }
 
 #w-node-_0b8becce-a376-197f-dd10-1b73e71c28cf-952c35eb {
